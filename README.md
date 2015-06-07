@@ -8,6 +8,8 @@ The image has the basics for a comfortable development environment, and can be u
 specialized images.
 Unlike the bare Debian image it includes man pages for quick access.
 
+This image is available at the [Docker Hub] repository [enil/debian-dev-base].
+
 ## Overview
 
 To launch the container, just run `docker run -ti enil/docker-dev-base:latest`.
@@ -20,9 +22,11 @@ To launch the container, just run `docker run -ti enil/docker-dev-base:latest`.
 * The script `update.sh` updates the environment variable `REFRESHED_AT` in the `Dockerfile`.
 * The script `rebuild.sh` updates `REFRESHED_AT` and rebuilds the image.
 
-[Docker]:              https://docker.com/
-[Debian 8.0 "Jessie"]: https://registry.hub.docker.com/_/debian/
-[enil-zsh-dotfiles]:   https://github.com/enil/enil-zsh-dotfiles.git
-[enil-vim-dotfiles]:   https://github.com/enil/enil-vim-dotfiles.git
-[enil-tmux-dotfiles]:  https://github.com/enil/enil-tmux-dotfiles.git
+[Docker]:               https://docker.com/
+[Debian 8.0 "Jessie"]:  https://registry.hub.docker.com/_/debian/
+[Docker Hub]:           https://hub.docker.com/
+[enil/debian-dev-base]: https://registry.hub.docker.com/u/enil/debian-dev-base/
+[enil-zsh-dotfiles]:    https://github.com/enil/enil-zsh-dotfiles.git
+[enil-vim-dotfiles]:    https://github.com/enil/enil-vim-dotfiles.git
+[enil-tmux-dotfiles]:   https://github.com/enil/enil-tmux-dotfiles.git
 
